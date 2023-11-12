@@ -20,6 +20,6 @@ int main(){
 	cin >> t;
 	while(1){
 		press(vk);
-		_sleep(t);
+		Sleep(t);
 	}
 }
