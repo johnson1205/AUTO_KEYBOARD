@@ -14,8 +14,10 @@ void press(int vk){
     up(vk);
 }
 int main(){
-	int vk, t;
-	cin >> vk >> t;
+	char c;
+        cin >> c;
+        int vk = VkKeyScan(c), t;
+	cin >> t;
 	while(1){
 		press(vk);
 		_sleep(t);
