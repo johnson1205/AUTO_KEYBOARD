@@ -15,7 +15,9 @@ void press(int vk){
 }
 int main(){
 	char c;
+	cout << "Which key you want to auto-press forever? ";
         cin >> c;
+	cout << "How many milliseconds should the interval be between two auto-key-presses? ";
         int vk = VkKeyScan(c), t;
 	cin >> t;
 	while(1){
